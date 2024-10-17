@@ -40,6 +40,7 @@ while (pengar > 0)
   else if (vadKopa == "5")
   {
     prisPerForemal = 1200;
+  }
 
   Console.WriteLine("Hur många vill du köpa?");
   int numKopa = 0;
