@@ -10,9 +10,10 @@ while (pengar > 0)
   Console.WriteLine("2. Jordan 4 Retro Black Cats ($880)");
   Console.WriteLine("3. Vetements Black New Rock Edition Platforms ($1280)");
   Console.WriteLine("4. Nike Air Force 1 Low ($110)");
+  Console.WriteLine("5. Rick Owens FW24 Porterville Jumbo Laced Sneakers ($1200)");
 
   string vadKopa = "";
-  while (vadKopa != "1" && vadKopa != "2" && vadKopa != "3" && vadKopa != "4")
+  while (vadKopa != "1" && vadKopa != "2" && vadKopa != "3" && vadKopa != "4" && vadKopa != "5")
   {
     vadKopa = Console.ReadLine();
   }
@@ -36,6 +37,9 @@ while (pengar > 0)
   {
     prisPerForemal = 110;
   }
+  else if (vadKopa == "5")
+  {
+    prisPerForemal = 1200;
 
   Console.WriteLine("Hur många vill du köpa?");
   int numKopa = 0;
